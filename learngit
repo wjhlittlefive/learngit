@@ -1,0 +1,19 @@
+public class Han {
+	public static void main(String[] args){
+		int n=1;
+		while(true){
+			if(n%3==1&&n%7==5&&n%5==0)
+			{
+				System.out.println("韩信带的兵数："+n);
+				break;
+			}
+			if(n==100)
+			{
+				System.out.println("兵数不存在");
+				break;
+			}
+			n++;
+			System.out.println("little_five");	
+		}
+	}
+}
